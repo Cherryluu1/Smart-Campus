@@ -1,27 +1,16 @@
-# SmartCampus – Setup
-
-## 1. Backend
-```
-cd backend
-npm install
-npm run seed      # (or: node seed.js)  – fills MongoDB + creates login accounts
-npm run dev       # http://localhost:5000
-```
-Requires MongoDB running locally (`mongodb://127.0.0.1:27017/SmartCampus`, see `backend/.env`).
-
-## 2. Frontend
-```
-cd frontend
-npm install
-npm run dev       # http://localhost:5173  (proxies /api -> :5000)
-```
-
-## Login accounts (created by the seed)
-| Role    | Email                              | Password    |
-|---------|------------------------------------|-------------|
-| Admin   | admin@smartcampus.ac.in            | Admin@123   |
-| Faculty | ramesh.babu@smartcampus.ac.in      | Faculty@123 |
-| Student | saicharan@smartcampus.ac.in        | Student@123 |
-
-All seeded faculty use `Faculty@123`, all seeded students use `Student@123`.
-Public sign-up creates Student accounts; faculty/admin accounts are created by an admin.
+<img width="1920" height="1200" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/7cad089c-10ae-4c7b-a172-06552ac2975b" />
+<img width="1920" height="1200" alt="Screenshot (160)" src="https://github.com/user-attachments/assets/003b35bb-59d8-4084-af4d-f79a0190eb97" />
+<img width="1920" height="1200" alt="Screenshot (161)" src="https://github.com/user-attachments/assets/b997cce4-8be5-4bff-9021-f88c9d51d5cd" />
+<img width="1920" height="1200" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/6e48ff42-66de-4e00-84a4-a1d6fb08955e" />
+<img width="1920" height="1200" alt="Screenshot (163)" src="https://github.com/user-attachments/assets/d641bc77-a62e-48be-8dbd-5f3f3384a45c" />
+<img width="1920" height="1200" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/08f8eab7-f198-4503-8a78-e3a59f878842" />
+<img width="1920" height="1200" alt="Screenshot (165)" src="https://github.com/user-attachments/assets/aeee6675-f693-4c48-9144-5ab01bdc0987" />
+<img width="1920" height="1200" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/3dd4b128-b5a3-4690-9444-f8172175c6e1" />
+<img width="1920" height="1200" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/04396f0d-1b93-47bb-94fb-7415d5c65aab" />
+<img width="1920" height="1200" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/d2cacd62-5b44-4ed7-a84f-b11cbd2463ca" />
+<img width="1920" height="1200" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/63a1170e-407a-442d-a652-3ddbdbbf3ce2" />
+<img width="1920" height="1200" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/9b6143cc-5cc4-4c6f-9e27-4c1c8da0ca14" />
+<img width="1920" height="1200" alt="Screenshot (171)" src="https://github.com/user-attachments/assets/7e588412-0afe-4d08-ba9c-41916f0172b0" />
+<img width="1920" height="1200" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/100f568c-0d3d-4e7e-8c26-4740fbb03dce" />
+<img width="1920" height="1200" alt="Screenshot (173)" src="https://github.com/user-attachments/assets/c2dd6200-248e-441f-9e7c-e38559ea756a" />
+<img width="1920" height="1200" alt="Screenshot (174)" src="https://github.com/user-attachments/assets/fc41976f-edfc-449a-8f74-b6285ae2dc5a" />
